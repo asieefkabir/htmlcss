@@ -1,0 +1,28 @@
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: black;
+}
+
+li{
+    float:left;
+    border-right: 1px solid white;
+}
+
+li:last-child{
+    border-right: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    
+}
+
+li a:hover{
+    color: white;
+    background-color: #ccc;
+}
